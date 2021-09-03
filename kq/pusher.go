@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/micro-easy/go-zero/core/executors"
+	"github.com/micro-easy/go-zero/core/logx"
 	"github.com/segmentio/kafka-go"
 	"github.com/segmentio/kafka-go/snappy"
-	"github.com/tal-tech/go-zero/core/executors"
-	"github.com/tal-tech/go-zero/core/logx"
 )
 
 type (

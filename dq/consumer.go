@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/tal-tech/go-zero/core/hash"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/core/service"
-	"github.com/tal-tech/go-zero/core/stores/redis"
+	"github.com/micro-easy/go-zero/core/hash"
+	"github.com/micro-easy/go-zero/core/logx"
+	"github.com/micro-easy/go-zero/core/service"
+	"github.com/micro-easy/go-zero/core/stores/redis"
 )
 
 const (

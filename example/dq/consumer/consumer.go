@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/tal-tech/go-queue/dq"
-	"github.com/tal-tech/go-zero/core/stores/redis"
+	"github.com/micro-easy/go-queue/dq"
+	"github.com/micro-easy/go-zero/core/stores/redis"
 )
 
 func main() {

@@ -6,16 +6,16 @@ import (
 	"log"
 	"time"
 
+	"github.com/micro-easy/go-zero/core/logx"
+	"github.com/micro-easy/go-zero/core/queue"
+	"github.com/micro-easy/go-zero/core/service"
+	"github.com/micro-easy/go-zero/core/stat"
+	"github.com/micro-easy/go-zero/core/threading"
+	"github.com/micro-easy/go-zero/core/timex"
 	"github.com/segmentio/kafka-go"
 	_ "github.com/segmentio/kafka-go/gzip"
 	_ "github.com/segmentio/kafka-go/lz4"
 	_ "github.com/segmentio/kafka-go/snappy"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/core/queue"
-	"github.com/tal-tech/go-zero/core/service"
-	"github.com/tal-tech/go-zero/core/stat"
-	"github.com/tal-tech/go-zero/core/threading"
-	"github.com/tal-tech/go-zero/core/timex"
 )
 
 const (

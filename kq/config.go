@@ -1,6 +1,6 @@
 package kq
 
-import "github.com/tal-tech/go-zero/core/service"
+import "github.com/micro-easy/go-zero/core/service"
 
 const (
 	firstOffset = "first"

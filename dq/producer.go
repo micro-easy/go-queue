@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tal-tech/go-zero/core/errorx"
-	"github.com/tal-tech/go-zero/core/fx"
-	"github.com/tal-tech/go-zero/core/lang"
-	"github.com/tal-tech/go-zero/core/logx"
+	"github.com/micro-easy/go-zero/core/errorx"
+	"github.com/micro-easy/go-zero/core/fx"
+	"github.com/micro-easy/go-zero/core/lang"
+	"github.com/micro-easy/go-zero/core/logx"
 )
 
 const (
